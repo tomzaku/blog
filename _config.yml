@@ -3,11 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Tom's Blog
 subtitle:
 description:
-author: John Doe
+author: Tom Le
 language:
+  - en
 timezone:
 
 # URL
@@ -19,7 +20,7 @@ permalink_defaults:
 
 # Directory
 source_dir: source
-public_dir: public
+public_dir: ../tomzaku.github.io
 tag_dir: tags
 archive_dir: archives
 category_dir: categories
@@ -63,7 +64,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: hueman
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
