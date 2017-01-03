@@ -55,6 +55,13 @@ Các khái niệm mình được rút gọn, và được định nghĩa theo ph
   Source Address == BSSID : 18:44:e6:e1:b2:c4 (Gồm 24 bit đầu Nhà sản xuất, 24 bit cuối là Serial của từng card mạng )
   Ngoài ra còn có SSID: Gồm tên của Wireless mà AP tạo ra cho các trạm biết được.(Nằm ở mục Wireless Lan Management)
 
-  3. Bạn đã hiểu cơ chế nhận Wireless rồi. Vậy bạn đã hiểu cơ chế xác thực(authentication) và kết họp (association) từ máy trạm đến AP chưa?
+  3. Bạn đã nắm được Beacon frame. Bạn có thắc mắc bạn, bạn scan network và chợt ra wifi cũ(wifi bạn đã kết nối ở nơi khác) lại xuất hiện ở nơi mới?
 
-   
+  Trường hợp này có thể xuất hiện ở một số device, một số device thì không.
+  Câu trả lời đây là Probe Frame. Mà chính xác ở đây là Probe Frame Request.
+  Probe Frame Request được tạo ra từ máy trạm nhằm mong muốn kết nối tới AP cũ.
+  Tùy thuộc vào thuật toán nhận Wireless trên từng thiết bị có thể  nó sẽ bắt lấy Probe Request. Và dĩ nhiên nó đã vô tình lấy Wifi cũ nhà bạn và lưu trong list Wifi hiện sẵn.
+
+  4. Bạn đã hiểu cơ chế nhận Wireless rồi. Vậy bạn đã hiểu cơ chế xác thực(authentication) và kết họp (association) từ máy trạm đến AP chưa?
+
+  (Link)[https://mrncciew.com/2014/10/10/802-11-mgmt-authentication-frame/]
