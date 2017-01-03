@@ -1,6 +1,7 @@
 ---
 title: How can I boost my memory?
 thumbnail: http://www.eslactivity.org/wp-content/uploads/2015/11/memory-higher-faculties.jpg
+tags: story
 ---
 
 ## My story:
@@ -9,7 +10,7 @@ thumbnail: http://www.eslactivity.org/wp-content/uploads/2015/11/memory-higher-f
   It not stay in my head in 1 day.
   So I wonder why my brain or my memory so bad.
   So I find out in some website. How can I boot my memory. I realized that I do wrong everyday and it's the main reason to destroy my memory.
-  First I go to bed too late and not routine. When i wake up, always consider have a luch or have a breakfast. My diet not good.
+  First I go to bed too late and not routine. When i wake up, always consider have a lunch or have a breakfast. My diet not good.
   And many reason let my brain go down. So I have to create this topic to promise myseft, Don't go the old way.
 
 ## Learning from:
