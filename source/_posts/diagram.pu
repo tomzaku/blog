@@ -1,0 +1,45 @@
+@startuml
+left to right direction
+
+title Types of UML Diagram
+class "Diagram" as CD
+package "Structure Diagram" {
+  class "Structure Diagram" as SD
+  CD <|-- SD
+  class " Class Diagram" as CLD
+  class "Package Diagram" as PD
+  class "Component Diagram" as COMD
+  class "Object Diagram" as OBJD
+  class "Composite Structure Diagram" as CSD
+  SD <|-- CLD
+  SD <|-- PD
+  SD <|-- COMD
+  SD <|-- OBJD
+  SD <|-- CSD
+
+}
+package "Behavious Diagram" #DDDDDD {
+  class "Behavious Diagram" as BD
+  CD <|-- BD
+  class "Activity Diagram" as AD
+  class "State Machine Diagram" as SMD
+  class "Usecase Diagram" as UD
+  package "Interaction Diagram"{
+    class "Interaction Diagram" as ID
+    class "Comunication Diagram" as COD
+    class "Interaction Overview Diagram" as IOD
+    class "Sequence Diagram" as SED
+    class "Timming Diagram" as TD
+    ID <|-- COD
+    ID <|-- IOD
+    ID <|-- SED
+    ID <|-- TD
+  }
+  BD <|-- AD
+  BD <|-- SMD
+  BD <|-- UD
+  BD <|-- ID
+
+}
+
+@enduml
